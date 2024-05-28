@@ -76,6 +76,7 @@ namespace LoginAndPasswordStorage
             {
                 Edit editRecord = new Edit(this, selectedAd);
                 editRecord.Show();
+                this.Close();
             }
         }
 

@@ -45,11 +45,15 @@ namespace LoginAndPasswordStorage
             // Сохранение в JSON
             _servicesWindow.SaveData();
             _servicesWindow.RefreshData();
+            var servicesWindow = new Services();
+            servicesWindow.Show();
             Close();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            var servicesWindow = new Services();
+            servicesWindow.Show();
             Close();
         }
     }

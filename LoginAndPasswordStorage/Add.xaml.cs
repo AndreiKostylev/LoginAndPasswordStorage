@@ -58,6 +58,8 @@ namespace LoginAndPasswordStorage
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            var servicesWindow = new Services();
+            servicesWindow.Show();
             Close();
         }
 
